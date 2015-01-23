@@ -1,0 +1,13 @@
+{
+  "name": "GameThrive Example",
+  "description": "GameThrive Push Notifications Example Chrome app.",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "app": {
+    "background": {
+      "scripts": ["GameThrive.js", "background.js"]
+    }
+  },
+  "permissions": ["gcm", "storage", "notifications", "identity"],
+  "icons": { "128": "GameThrive_icon.png" }
+}
